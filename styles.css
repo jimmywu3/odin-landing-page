@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* hero div section*/
+
 body{
     display: flex;
     flex-direction: column;
@@ -67,6 +69,8 @@ body{
     border-radius: 8px;
     border: none;
     color: white;
+    padding: 4px 16px;
+    margin-top: 8px;
 }
 
 .placeholder-image{
@@ -76,4 +80,45 @@ body{
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+/* image-showcase div */
+
+.image-showcase{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-showcase h1{
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    margin-bottom: 109px;
+    gap: 8px;
+}
+
+.image-section .image{
+    border-radius: 16px;
+    border: 3px solid #3882f6;
+    flex-basis: 128px;
+}
+
+.image-section p{
+    text-align: center;
+    font-size: 18px;
 }
