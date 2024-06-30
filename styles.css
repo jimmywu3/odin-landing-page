@@ -179,3 +179,12 @@ button{
 
 /* footer class */
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+}
