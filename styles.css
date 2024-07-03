@@ -43,10 +43,9 @@ body{
 
 .hero-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 96px 0;
     gap: 16px;
-    flex: 1;
 }
 
 .hero-text{
